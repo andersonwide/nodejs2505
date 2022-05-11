@@ -1,6 +1,6 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose from "mongoose";
 
-const {schema} = mongoose;
+const {Schema} = mongoose;
 
 const taskModel = new Schema({
     _id: {type: String},
